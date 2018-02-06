@@ -13,6 +13,10 @@ declare module "redux-persist" {
     export * from "redux-persist/es/purgeStoredState";
 }
 
+declare module "redux-persist/lib/integration/react" {
+    export * from "redux-persist/es/integration/react";   
+}
+
 declare module "redux-persist/lib/storage" {
     export * from "redux-persist/es/storage";   
 }
