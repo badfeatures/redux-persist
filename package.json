@@ -83,5 +83,6 @@
   "peerDependencies": {
     "redux": ">3.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "types": "./src/index.d.ts"
 }
